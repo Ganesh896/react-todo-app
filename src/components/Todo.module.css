@@ -1,0 +1,28 @@
+.todo {
+  background: #fff;
+  height: 45px;
+  padding: 0 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+    font-size: clamp(15px, 3vw, 17px);
+}
+
+.todo i {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.todo i:first-child {
+  color: red;
+  margin-right: 5px;
+}
+
+.todo i:last-child {
+  color: #1771e6;
+}

@@ -1,0 +1,4 @@
+.todo_container {
+  max-height: 450px;
+  overflow: auto;
+}
